@@ -32,6 +32,7 @@ public class ScheduleSMSModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void sendMessage(String receiptNumber, String message, String dateTime) {
         try {
+            //Thu Aug 31 02:00:00 2017
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("EEE MMM dd HH:mm:ss yyyy");
             Date date = simpleDateFormat.parse(dateTime);
             long timeMills = date.getTime();

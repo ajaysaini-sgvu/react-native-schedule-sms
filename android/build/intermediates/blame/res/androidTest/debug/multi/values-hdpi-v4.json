@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "D:\\React Native\\react-native-schedule-sms\\SchduleSMSDemo\\node_modules\\react-native-schedule-sms\\android\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 6,
+                    "endColumn": 13,
+                    "endOffset": 327
+                },
+                "from": {
+                    "file": "C:\\Users\\ajaysaini\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.0.1.aar\\1ea7c9f3a1871c15dd41f3f92171881e\\res\\values-hdpi\\values-hdpi.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 286,
+                        "endLine": 8,
+                        "endColumn": 13,
+                        "endOffset": 558
+                    }
+                }
+            }
+        ]
+    }
+]
