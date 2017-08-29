@@ -1,0 +1,6 @@
+rootProject.name = 'SchduleSMSDemo'
+
+include ':app'
+
+include ':react-native-schedule-sms'
+project(':react-native-schedule-sms').projectDir = new File(settingsDir, '../node_modules/react-native-schedule-sms/android')
