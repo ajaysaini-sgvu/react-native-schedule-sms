@@ -1,0 +1,26 @@
+{
+  "name": "react-native-schedule-sms",
+  "version": "1.0.0",
+  "description": "Schedule SMS in React Native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajaysaini-sgvu/react-native-schedule-sms.git"
+  },
+  "keywords": [
+    "react-native",
+    "schedule",
+    "sms",
+    "alarm-manager",
+    "android"
+  ],
+  "author": "Ajay Saini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajaysaini-sgvu/react-native-schedule-sms/issues"
+  },
+  "homepage": "https://github.com/ajaysaini-sgvu/react-native-schedule-sms#readme"
+}
