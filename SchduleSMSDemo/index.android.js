@@ -9,6 +9,7 @@ import { AppRegistry, StyleSheet, Button, View } from "react-native";
 import Scheduler from "react-native-schedule-sms";
 
 export default class SchduleSMSDemo extends Component {
+  
   constructor(props) {
     super(props);
     this._pressSendMessage = this._pressSendMessage.bind(this);
@@ -27,7 +28,7 @@ export default class SchduleSMSDemo extends Component {
   }
 
   _pressSendMessage() {
-    //Time is in this format 8/31/2017, 2:00:00 PM
+    //Date and Time format Thu Aug 31 02:00:00 2017
     Scheduler.sendMessage("mobileNumber", "message", "time");
   }
 }
