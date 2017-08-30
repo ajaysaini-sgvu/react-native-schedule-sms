@@ -42,7 +42,7 @@ export default class SchduleSMSDemo extends Component {
   }
 
   _pressSendMessage() {
-    //Time is in this format Thu Aug 31 02:00:00 2017
+    //Date and Time format Thu Aug 31 02:00:00 2017
     Scheduler.sendMessage("mobileNumber", "message", "time");
   }
 }
@@ -60,9 +60,9 @@ const styles = StyleSheet.create({
 
 ### Methods
 
-| Method Name       | Arguments                         | Notes                                |
-| -------------     | :-------------:                   | :----------------:                   |
-| sendMessage       | mobile number, text, date & time  | Schedule a SMS at specific dates
+| Method Name       | Arguments                                                    | Notes                                |
+| -------------     | :-------------:                                              | :----------------:                   |
+| sendMessage       | mobile number, text, date & time (EEE MMM dd HH:mm:ss yyyy)  | Schedule a SMS at specific dates
 
 ### License
 
