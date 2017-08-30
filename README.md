@@ -42,7 +42,7 @@ export default class SchduleSMSDemo extends Component {
   }
 
   _pressSendMessage() {
-    //Time is in this format 8/31/2017, 2:00:00 PM
+    //Time is in this format Thu Aug 31 02:00:00 2017
     Scheduler.sendMessage("mobileNumber", "message", "time");
   }
 }
