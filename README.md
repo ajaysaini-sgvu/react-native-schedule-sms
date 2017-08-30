@@ -5,14 +5,23 @@ A react native package to schedule SMS at specific dates on android platform.
 
 ### Installation
 
-```
-npm install react-native-schedule-sms --save
-react-native link
-```
+1. Install:
+    - Using [npm](https://www.npmjs.com/#getting-started): `npm install react-native-schedule-sms --save`
+    - Using [Yarn](https://yarnpkg.com/): `yarn add react-native-schedule-sms`
+
+2. [Link](https://facebook.github.io/react-native/docs/linking-libraries-ios.html):
+    - `react-native link react-native-schedule-sms`
+    - Or if that fails, link manually using [these steps](https://github.com/cooperka/react-native-snackbar/wiki/Manual-Installation)
+
+3. Import it in your JS:
+
+    ```js
+    import Scheduler from 'react-native-schedule-sms';
+    ```
 
 ### Example
 
-```
+```js
 /**
  * Created by Ajay on 30/8/2017.
  * https://github.com/facebook/react-native
