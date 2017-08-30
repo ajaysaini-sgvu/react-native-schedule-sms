@@ -1,5 +1,5 @@
 /**
- * Sample React Native App
+ * Created by Ajay on 30/8/2017.
  * https://github.com/facebook/react-native
  * @flow
  */
@@ -27,8 +27,8 @@ export default class SchduleSMSDemo extends Component {
   }
 
   _pressSendMessage() {
-    console.log("Hello");
-    Scheduler.sendMessage("9782145901", "Hey", "8/31/2017, 2:00:00 PM");
+    //Time is in this format 8/31/2017, 2:00:00 PM
+    Scheduler.sendMessage("mobileNumber", "message", "time");
   }
 }
 
