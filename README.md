@@ -6,7 +6,8 @@ A react native package to schedule SMS at specific dates on android platform.
 ### Installation
 
 ```
-npm install  react-native-schedule-sms --save
+npm install react-native-schedule-sms --save
+react-native link
 ```
 
 ### Example
